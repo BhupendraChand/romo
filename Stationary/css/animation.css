@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* styling part  of css*/
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+
+}
+
+
+
+nav {
+    display: flex;
+box-shadow: 1px 1px 2px green;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 175px;
+    padding: 0 4px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 2px 7px;
+
+
+
+}
+
+.nav ul li a:hover {
+    background-color:yellowgreen;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 12px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+
+}
+search button{
+    background: rgb(255, 0, 0);
+}
+
+.search button:hover {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(109, 183, 35, 0.684);
+
+}
+
+
+
+
+.slider {
+    display: inline-flex;
+    width: 80vw;
+    margin: 12px 175px;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.card-item {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 21px 15px;
+    border: none;
+    box-shadow: 5px 10px 5px 5px  #bcc11a;
+    
+}
+
+    
+
+
+
+.image {
+    padding: 0px 0px 35px 0px;
+}
+
+.lines {
+    margin: 4px auto;
+    
+
+}
+
+.purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+
+    cursor: pointer;
+    background-color: red;
+    margin: 0px auto;
+}
+
+.buy:hover {
+    background-color: aqua;
+    
+
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+    height: 51vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 110px;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+}
+
+/* response  button control part */
+
+
+.btn {
+
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.my-2 {
+    margin: 26px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* utils part of css  */
+
+.my-1 {
+    margin: 5px 0;
+
+    font-size: small;
+}
+
+.my-2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.my-3 {
+    color: orangered;
+    font-size: larger;
+    font: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* @media only screen(min-width:673px) and (max-width: 320px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen (min-width:673px)and (max-width: 763px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen (min-width:673px) and (max-width: 1440px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+} */

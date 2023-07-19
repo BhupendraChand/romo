@@ -1,0 +1,9 @@
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 110px;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    
+}
