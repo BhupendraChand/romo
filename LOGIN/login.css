@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    border: none;
+    display: block;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: 10% auto;
+
+}
+
+.contain {
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.table{
+
+background-color: aquamarine;
+    border: 2px solid green;
+height: 300px;
+width: 300px;
+}
+.login-form{
+    border: none;
+    font-size: larger;
+}
+.item-1{
+    border: none;
+    display: block;
+    justify-content: center;
+}
+.btn{
+width: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.item-product{
+    padding: 10px;
+}
